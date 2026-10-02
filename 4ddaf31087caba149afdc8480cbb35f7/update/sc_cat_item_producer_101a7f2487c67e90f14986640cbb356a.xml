@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <cc_render_type/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<table style="border-collapse: collapse; width: 99.99%; border-width: 0px;" border="1"><colgroup><col style="width: 99.9026%;" /></colgroup><tbody><tr><td style="border-width: 0px;"><strong><span style="font-size: 18pt;"><span style="font-size: 11pt; font-family: &#39;Segoe UI Emoji&#39;, sans-serif;">⚠️</span><span style="font-size: 11pt; font-family: Arial, sans-serif;"> Informations générales (à lire avant de remplir)</span></span></strong></td></tr><tr><td style="border-width: 0px;">
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"> </p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"><span style="font-size: 11.0pt; font-family: Arial, sans-serif;">L’accès aux catalogues de médicaments permet la commande de médicaments soumis à ordonnance, pouvant inclure des stupéfiants.</span></p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"> </p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"><span style="font-size: 11.0pt; font-family: Arial, sans-serif;">Toute demande est <strong>exceptionnelle</strong>, <strong>limitée dans le temps (1 an maximum)</strong> et <strong>soumise à validation pharmaceutique</strong>.</span></p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"> </p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"><span style="font-size: 11.0pt; font-family: Arial, sans-serif;">Les droits sont <strong>nominatifs, non transférables</strong> et retirés automatiquement en cas de départ d’abus ou de changement de fonction.</span></p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"> </p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"><span style="font-size: 11.0pt; font-family: Arial, sans-serif;">Toute commande effectuée doit être <strong>strictement liée aux besoins des patients ou aux activités médicales autorisées</strong>.</span></p>
+<p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"> </p>
+</td></tr></tbody></table>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>(HUG) Droits exceptionnel Pharmacie</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Arnaud KENDZIORA-ADM">373a816b95ce7540d4a1757394541fe7</owner>
+        <picture>994d655f879332949afdc8480cbb35fd</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=101a7f2487c67e90f14986640cbb356a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description>Demande de droits d'accès pour la pharmacie</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2025-12-23 10:37:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>101a7f2487c67e90f14986640cbb356a</sys_id>
+        <sys_mod_count>181</sys_mod_count>
+        <sys_name>(HUG) Droits exceptionnel Pharmacie</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sc_cat_item_producer_101a7f2487c67e90f14986640cbb356a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:40:44</sys_updated_on>
+        <table_name>x_hpug_demande_a_0_demande_acces_exceptionnel</table_name>
+        <taxonomy_topic display_value="Droits d'accès">87415f43877c691098b684030cbb359a</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_custom_price_calculator/>
+        <u_description_detaille/>
+        <u_url_tutorial/>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor/>
+        <version>181</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=101a7f2487c67e90f14986640cbb356a"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>101a7f2487c67e90f14986640cbb356a</documentkey>
+        <fieldname>description</fieldname>
+        <language>fr</language>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-06-18 18:01:18</sys_created_on>
+        <sys_id>695145f187e5c794f14986640cbb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;table style="border-collapse: collapse; width: 99.99%; border-width: 0px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 99.9026%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border-width: 0px;"&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 11pt; font-family: &amp;#39;Segoe UI Emoji&amp;#39;, sans-serif;"&gt;⚠️&lt;/span&gt;&lt;span style="font-size: 11pt; font-family: Arial, sans-serif;"&gt; Informations générales (à lire avant de remplir)&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-width: 0px;"&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;L’accès aux catalogues de médicaments permet la commande de médicaments soumis à ordonnance, pouvant inclure des stupéfiants.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute demande est &lt;strong&gt;exceptionnelle&lt;/strong&gt;, &lt;strong&gt;limitée dans le temps (1 an maximum)&lt;/strong&gt; et &lt;strong&gt;soumise à validation pharmaceutique&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Les droits sont &lt;strong&gt;nominatifs, non transférables&lt;/strong&gt; et retirés automatiquement en cas de départ d’abus ou de changement de fonction.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute commande effectuée doit être &lt;strong&gt;strictement liée aux besoins des patients ou aux activités médicales autorisées&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>101a7f2487c67e90f14986640cbb356a</documentkey>
+        <fieldname>name</fieldname>
+        <language>fr</language>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-06-18 18:01:18</sys_created_on>
+        <sys_id>ed5145f187e5c794f14986640cbb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>(HUG) Droits exceptionnel Pharmacie</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>101a7f2487c67e90f14986640cbb356a</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fr</language>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-06-18 18:01:18</sys_created_on>
+        <sys_id>e95145f187e5c794f14986640cbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Demande de droits d'accès pour la pharmacie</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=101a7f2487c67e90f14986640cbb356a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CHF">CHF</currency>
+        <field>price</field>
+        <id>101a7f2487c67e90f14986640cbb356a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CHF">CHF</reference_currency>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2025-12-23 10:37:29</sys_created_on>
+        <sys_id>625afb6487c67e90f14986640cbb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2025-12-23 10:37:29</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <encryption_context/>
+        <file_name>OIP.jpg</file_name>
+        <hash>67e8946aa6dad52281b699c693dec471d89e92a5e2436b3e172213f9ff43df76</hash>
+        <image_height>236</image_height>
+        <image_width>236</image_width>
+        <size_bytes>11480</size_bytes>
+        <size_compressed>11024</size_compressed>
+        <state>available</state>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-03-03 16:42:53</sys_created_on>
+        <sys_id>994d655f879332949afdc8480cbb35fd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2026-09-08 21:07:45</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>101a7f2487c67e90f14986640cbb356a</table_sys_id>
+        <u_type/>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="OIP.jpg" sys_id="994d655f879332949afdc8480cbb35fd">994d655f879332949afdc8480cbb35fd</sys_attachment>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-03-03 16:42:53</sys_created_on>
+        <sys_id>5d4d655f879332949afdc8480cbb35fd</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>14688</length>
+        <position>1</position>
+        <sys_attachment display_value="OIP.jpg" sys_id="994d655f879332949afdc8480cbb35fd">994d655f879332949afdc8480cbb35fd</sys_attachment>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-03-03 16:42:53</sys_created_on>
+        <sys_id>114d655f879332949afdc8480cbb35fe</sys_id>
+    </sys_attachment_doc>
+</record_update>

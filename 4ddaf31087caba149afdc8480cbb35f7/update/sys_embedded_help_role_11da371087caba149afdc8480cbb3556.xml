@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_hpug_demande_a_0.admin" name="x_hpug_demande_a_0.admin">5dda371087caba149afdc8480cbb3553</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2025-12-22 16:01:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>11da371087caba149afdc8480cbb3556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5dda371087caba149afdc8480cbb3553</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_embedded_help_role_11da371087caba149afdc8480cbb3556</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2025-12-22 16:01:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

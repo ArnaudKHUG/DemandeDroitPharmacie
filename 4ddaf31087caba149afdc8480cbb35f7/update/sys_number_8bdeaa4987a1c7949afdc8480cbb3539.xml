@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_hpug_demande_a_0_masterdata">x_hpug_demande_a_0_masterdata</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>MAS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-06-16 18:04:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bdeaa4987a1c7949afdc8480cbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MAS</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_number_8bdeaa4987a1c7949afdc8480cbb3539</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-06-16 18:04:23</sys_updated_on>
+    </sys_number>
+</record_update>

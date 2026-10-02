@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_hpug_demande_a_0_demande_acces_exceptionnel</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 20:08:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>90e0f7c0875747d0f14986640cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hpug_demande_a_0_demande_acces_exceptionnel</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>ua_table_licensing_config_90e0f7c0875747d0f14986640cbb3537</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 20:08:46</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

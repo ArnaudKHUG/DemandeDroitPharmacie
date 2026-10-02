@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="2. Identification de l'ayant droit" section_id="9090049c87d747d0f14986640cbb35b8" sys_domain="global" table="x_hpug_demande_a_0_demande_acces_exceptionnel" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient</element>
+            <position>0</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>63228890871b47d0f14986640cbb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fonction_ayantdroit</element>
+            <position>1</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>af228890871b47d0f14986640cbb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>institution</element>
+            <position>2</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>2b228890871b47d0f14986640cbb3526</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partenaire</element>
+            <position>3</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>a3228890871b47d0f14986640cbb3527</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>2f228890871b47d0f14986640cbb3527</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient.email</element>
+            <position>5</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>a7228890871b47d0f14986640cbb3528</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_unite_recipient</element>
+            <position>6</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>23228890871b47d0f14986640cbb3529</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telephone_recipient</element>
+            <position>7</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:22</sys_created_on>
+            <sys_id>ab228890871b47d0f14986640cbb3529</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>2. Identification de l'ayant droit</caption>
+            <header>false</header>
+            <name>x_hpug_demande_a_0_demande_acces_exceptionnel</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:17:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9090049c87d747d0f14986640cbb35b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hpug_demande_a_0_demande_acces_exceptionnel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+            <sys_update_name>sys_ui_section_9090049c87d747d0f14986640cbb35b8</sys_update_name>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:17:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

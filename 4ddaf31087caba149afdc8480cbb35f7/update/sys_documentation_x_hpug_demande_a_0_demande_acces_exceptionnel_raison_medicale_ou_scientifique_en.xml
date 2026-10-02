@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="raison_medicale_ou_scientifique" label="4.1 Raison médicale ou scientifique" language="en" table="x_hpug_demande_a_0_demande_acces_exceptionnel">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>raison_medicale_ou_scientifique</element>
+            <help/>
+            <hint/>
+            <label>4.1 Raison médicale ou scientifique</label>
+            <language>en</language>
+            <name>x_hpug_demande_a_0_demande_acces_exceptionnel</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 20:50:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>4.1 Raison médicale ou scientifique</sys_name>
+            <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+            <sys_update_name>sys_documentation_x_hpug_demande_a_0_demande_acces_exceptionnel_raison_medicale_ou_scientifique_en</sys_update_name>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

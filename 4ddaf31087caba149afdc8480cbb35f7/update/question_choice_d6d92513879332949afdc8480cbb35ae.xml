@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="choix type A">a779a1df875332949afdc8480cbb3512</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-03-03 16:27:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d6d92513879332949afdc8480cbb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>valeur A</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>question_choice_d6d92513879332949afdc8480cbb35ae</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-03-03 16:27:55</sys_updated_on>
+        <text>valeur A</text>
+        <value>valeur_a</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d6d92513879332949afdc8480cbb35ae"/>
+</record_update>

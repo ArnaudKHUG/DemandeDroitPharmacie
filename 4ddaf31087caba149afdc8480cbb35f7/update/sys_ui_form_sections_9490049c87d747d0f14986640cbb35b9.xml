@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9490049c87d747d0f14986640cbb35b9" sys_domain="global" table="x_hpug_demande_a_0_demande_acces_exceptionnel" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5090049c87d747d0f14986640cbb35bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">a0e0f7c0875747d0f14986640cbb3598</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:17:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c90049c87d747d0f14986640cbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="1. Responsable" display_value="1. Responsable" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">5490c09c87d747d0f14986640cbb35ef</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:17:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:17:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c90049c87d747d0f14986640cbb35c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="2. Identification de l'ayant droit" display_value="2. Identification de l'ayant droit" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9090049c87d747d0f14986640cbb35b8</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:17:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5b224890871b47d0f14986640cbb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="3. Type de droits demandés" display_value="3. Type de droits demandés" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">db224890871b47d0f14986640cbb356f</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>53224890871b47d0f14986640cbb3582</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="4. Justification détaillée de la demande" display_value="4. Justification détaillée de la demande" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">93224890871b47d0f14986640cbb3571</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f224890871b47d0f14986640cbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="5. Absence d’alternative viable " display_value="5. Absence d’alternative viable " name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">5b224890871b47d0f14986640cbb3572</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6f224890871b47d0f14986640cbb358d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="6. Compétences et formation du demandeur" display_value="6. Compétences et formation du demandeur" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">13224890871b47d0f14986640cbb3574</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eb224890871b47d0f14986640cbb35de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="7. Durée de l’accès demandé" display_value="7. Durée de l’accès demandé" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">d7224890871b47d0f14986640cbb3575</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e3224890871b47d0f14986640cbb35e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="8. Organisation interne et délégation " display_value="8. Organisation interne et délégation " name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9f224890871b47d0f14986640cbb3576</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:24:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 22:18:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>749e4c1887db47d0f14986640cbb3528</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="9. Traitement" display_value="9. Traitement" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">789e4c1887db47d0f14986640cbb3521</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 22:18:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ef224890871b47d0f14986640cbb35eb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hpug_demande_a_0_demande_acces_exceptionnel" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">9490049c87d747d0f14986640cbb35b9</sys_ui_form>
+            <sys_ui_section caption="Communications" display_value="Communications" name="x_hpug_demande_a_0_demande_acces_exceptionnel" sys_domain="global" view="Default view">57224890871b47d0f14986640cbb3578</sys_ui_section>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 22:18:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hpug_demande_a_0_demande_acces_exceptionnel</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ARKADM</sys_created_by>
+            <sys_created_on>2026-09-08 21:17:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9490049c87d747d0f14986640cbb35b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hpug_demande_a_0_demande_acces_exceptionnel</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9490049c87d747d0f14986640cbb35b9</sys_update_name>
+            <sys_updated_by>ARKADM</sys_updated_by>
+            <sys_updated_on>2026-09-08 21:17:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

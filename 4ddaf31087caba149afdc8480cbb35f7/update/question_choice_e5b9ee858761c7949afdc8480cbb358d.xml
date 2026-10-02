@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Catalogue(s)">2822ae8987ed87949afdc8480cbb35df</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-06-16 17:41:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e5b9ee858761c7949afdc8480cbb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medstock (médicaments stockés)</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>question_choice_e5b9ee858761c7949afdc8480cbb358d</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-06-16 17:41:53</sys_updated_on>
+        <text>Medstock (médicaments stockés)</text>
+        <value>medstock</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e5b9ee858761c7949afdc8480cbb358d"/>
+</record_update>

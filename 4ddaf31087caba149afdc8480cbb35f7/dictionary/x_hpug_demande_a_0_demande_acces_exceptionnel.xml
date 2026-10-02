@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="73d0b7c0875747d0f14986640cbb35c7" extends="task" label="Demande Acces Exceptionnel" max_length="40" name="x_hpug_demande_a_0_demande_acces_exceptionnel" type="collection">
+        <element label="Date de relance" max_length="40" name="date_de_relance" type="glide_date"/>
+        <element choice="3" label="Institution" max_length="40" name="institution" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="HUG" sequence="0" value="hug"/>
+                <element inactive_on_update="false" label="CMU" sequence="1" value="cmu"/>
+                <element inactive_on_update="false" label="Partenaire externe" sequence="2" value="partenaire_externe"/>
+            </choice>
+        </element>
+        <element choice="3" label="Durée souhaitée" max_length="40" name="duree_souhaitee" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="1 an" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Justification" max_length="500" name="justification" type="string"/>
+        <element label="Nom / Fonction" max_length="100" name="nom_fonction" type="string"/>
+        <element choice="3" label="4.3 Fréquence estimée des commandes" max_length="40" name="frequence" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Occasionnelle" sequence="0" value="Occasionnelle"/>
+                <element inactive_on_update="false" label="Fréquente" sequence="2" value="Fréquente"/>
+                <element inactive_on_update="false" label="Régulière" sequence="1" value="Régulière"/>
+            </choice>
+        </element>
+        <element choice="3" default="traitement" label="Etape" max_length="40" name="etape" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Terminée" sequence="2" value="terminee"/>
+                <element inactive_on_update="false" label="Traitement" sequence="1" value="traitement"/>
+                <element inactive_on_update="false" label="Traitée" sequence="0" value="traitee"/>
+            </choice>
+        </element>
+        <element label="Recipient" max_length="32" name="recipient" reference="sys_user" reference_qual="u_toto=PRES^company=f66b14e1c611227b0166c3a0df4046ff" reference_qual_condition="u_toto=PRES^company=f66b14e1c611227b0166c3a0df4046ff" type="reference"/>
+        <element label="4.2 Types de médicaments concernés" max_length="500" name="types_de_medicaments_concernes" type="string"/>
+        <element label="Accès" max_length="40" name="acces_type" type="radio"/>
+        <element label="Partenaire" max_length="80" name="partenaire" type="string"/>
+        <element label="Service / Unité" max_length="80" name="service_unite_responsable" type="string"/>
+        <element label="Service / Unité" max_length="80" name="service_unite_recipient" type="string"/>
+        <element label="Précision" max_length="256" name="precision" type="string"/>
+        <element choice="3" label="Remplaçant prévu" max_length="40" name="remplacant_prevu" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Oui" sequence="0" value="Oui"/>
+                <element inactive_on_update="false" label="Non" sequence="1" value="non"/>
+            </choice>
+        </element>
+        <element label="Téléphone" max_length="40" name="telephone_recipient" type="string"/>
+        <element default="False" label="Relancer" max_length="40" name="relancer" type="boolean"/>
+        <element label="Date de début souhaitée" max_length="40" name="date_de_debut_souhaitee" type="glide_date"/>
+        <element label="Outils utilisés" max_length="500" name="outils_utilises" reference="x_hpug_demande_a_0_masterdata" reference_qual="actif=true^type=outils" reference_qual_condition="actif=true^type=outils" type="glide_list"/>
+        <element label="Date de cloture" max_length="40" name="date_de_cloture" type="glide_date"/>
+        <element label="Responsable" max_length="32" name="responsable" reference="sys_user" reference_qual="u_toto=PRES^company=f66b14e1c611227b0166c3a0df4046ff" reference_qual_condition="u_toto=PRES^company=f66b14e1c611227b0166c3a0df4046ff" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Catalogue" max_length="500" name="catalogue" reference="x_hpug_demande_a_0_masterdata" reference_qual="actif=true^type=catalogue" reference_qual_condition="actif=true^type=catalogue" type="glide_list"/>
+        <element choice="3" label="Fonction" max_length="40" name="fonction_responsable" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Cadre référent" sequence="0" value="cadre_referent"/>
+                <element inactive_on_update="false" label="Professeur CMU" sequence="4" value="professeur_cmu"/>
+                <element inactive_on_update="false" label="Responsable de service" sequence="3" value="responsable_de_service"/>
+                <element inactive_on_update="false" label="Médecin responsable" sequence="1" value=" medecin_responsable"/>
+                <element inactive_on_update="false" label="RES" sequence="2" value="RES"/>
+            </choice>
+        </element>
+        <element choice="3" label="Procédure interne existante" max_length="40" name="procedure_interne_existante" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Non" sequence="1" value="non"/>
+                <element inactive_on_update="false" label="Oui" sequence="0" value="Oui"/>
+            </choice>
+        </element>
+        <element label="Fonction" max_length="80" name="fonction_ayantdroit" type="string"/>
+        <element label="4.1 Raison médicale ou scientifique" max_length="500" name="raison_medicale_ou_scientifique" type="string"/>
+    </element>
+</database>

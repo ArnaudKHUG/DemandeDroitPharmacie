@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_hpug_demande_a_0_demande_acces_exceptionnel">remplacant_prevu=non^EQ<item display_value="Non" endquery="false" field="remplacant_prevu" goto="false" newquery="false" operator="=" or="false" value="non"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+//alert("c2");
+g_form.showAnnotation('a_completer');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+//alert("c1");
+g_form.hideAnnotation('a_completer');
+g_form.hideFieldMsg('a_completer');
+var annotationEl = document.getElementById("a_completer");
+ if (annotationEl) {
+       annotationEl.parentNode.style.display = "block"; 
+        } else {
+            // Cacher l'annotation
+            annotationEl.parentNode.style.display = "none"; 
+        }
+}]]></script_true>
+        <set_values/>
+        <short_description>(HUG)  Hide annotation Remplacement</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-09 00:39:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>547e6098875387d0f14986640cbb3574</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>(HUG)  Hide annotation Remplacement</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_ui_policy_547e6098875387d0f14986640cbb3574</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-09 06:54:36</sys_updated_on>
+        <table>x_hpug_demande_a_0_demande_acces_exceptionnel</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

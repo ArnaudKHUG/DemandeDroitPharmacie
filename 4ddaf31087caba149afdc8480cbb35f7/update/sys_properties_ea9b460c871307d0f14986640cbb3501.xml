@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Nombre de jours de droits&#13;
+365</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_hpug_demande_a_0.delay_fin_droits</name>
+        <read_roles/>
+        <suffix>delay_fin_droits</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 12:47:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea9b460c871307d0f14986640cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hpug_demande_a_0.delay_fin_droits</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_properties_ea9b460c871307d0f14986640cbb3501</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 12:47:08</sys_updated_on>
+        <type>integer</type>
+        <value>5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea9b460c871307d0f14986640cbb3501"/>
+</record_update>

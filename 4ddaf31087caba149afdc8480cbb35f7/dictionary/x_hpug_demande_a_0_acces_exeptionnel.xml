@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="c9ab7bd087caba149afdc8480cbb3558" label="acces exceptionnel" max_length="40" name="x_hpug_demande_a_0_acces_exeptionnel" type="collection">
+        <element choice="3" label="Institution" max_length="40" name="institution" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="CMU" sequence="1" value="cmu"/>
+                <element inactive_on_update="false" label="HUG" sequence="0" value="hug"/>
+                <element inactive_on_update="false" label="Partenaire externe" sequence="2" value="partenaire_externe"/>
+            </choice>
+        </element>
+        <element choice="3" label="Fonction Responsable" max_length="40" name="fonction_responsable" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Médecin responsable" sequence="3" value="medecin_responsable"/>
+                <element inactive_on_update="false" label="Cadre référent" sequence="0" value="cadre_referent"/>
+                <element inactive_on_update="false" label="IRES" sequence="1" value="IRES"/>
+                <element inactive_on_update="false" label="Professeur médical" sequence="2" value="professeur_medical"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element choice="1" label="Fonction" max_length="40" name="fonction_recipient" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Médecin responsable" sequence="1" value="Medecin_responsable"/>
+                <element inactive_on_update="false" label="Cadre référent" sequence="3" value="Cadre_referent"/>
+                <element inactive_on_update="false" label="IRES" sequence="2" value="IRES"/>
+                <element inactive_on_update="false" label="Professeur médical" sequence="0" value="Professeur_medical"/>
+            </choice>
+        </element>
+        <element label="4.2 Types de médicaments concernés" max_length="500" name="types_de_medicaments_concernes" type="string"/>
+        <element label="Fonction" max_length="40" name="fonction_ayantdroit" type="string"/>
+        <element label="Partenaire" max_length="40" name="partenaire" type="string"/>
+        <element label="Responsable" max_length="32" name="responsable" reference="sys_user" type="reference"/>
+        <element label="Nom / Fonction" max_length="100" name="nom_fonction" type="string"/>
+        <element label="Date de début souhaitée" max_length="40" name="date_de_debut_souhaitee" type="glide_date"/>
+        <element label="Catalogue liste" mandatory="true" max_length="1000" name="catalogue_liste" reference="x_hpug_demande_a_0_masterdata" reference_qual="actif=true^type=catalogue^EQ" reference_qual_condition="actif=true^type=catalogue^EQ" type="glide_list"/>
+        <element default="False" label="Relancer" max_length="255" name="relancer" type="boolean"/>
+        <element choice="3" label="Durée souhaitée" max_length="40" name="duree_souhaitee" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="1 an" sequence="0" value="1_an"/>
+            </choice>
+        </element>
+        <element choice="3" label="Etape" max_length="40" name="etape" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Traitement" sequence="0" value="traitement"/>
+                <element inactive_on_update="false" label="Traitée" sequence="2" value="traitee"/>
+                <element inactive_on_update="false" label="Terminée" sequence="1" value="terminee"/>
+            </choice>
+        </element>
+        <element label="Précision" max_length="40" name="precision" type="string"/>
+        <element label="Date de relance" max_length="40" name="date_de_relance" type="glide_date"/>
+        <element label="4.1 Raison médicale ou scientifique" max_length="500" name="raison_medicale_ou_scientifique" type="string"/>
+        <element label="Historique" max_length="40" name="historique" type="journal_input"/>
+        <element label="Service / unité" max_length="40" name="service_unite_responsable" type="string"/>
+        <element label="Téléphone" max_length="40" name="telephone_recipient" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Outils utilisés" mandatory="true" max_length="255" name="outils_utilises" reference="x_hpug_demande_a_0_masterdata" reference_qual="actif=true^type=outils^EQ" reference_qual_condition="actif=true^type=outils^EQ" type="glide_list"/>
+        <element choice="3" label="Procédure interne existante" max_length="40" name="procedure_interne_existante" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Oui" sequence="0" value="Oui"/>
+                <element inactive_on_update="false" label="Non" sequence="1" value="non"/>
+            </choice>
+        </element>
+        <element label="Justification" max_length="500" name="justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="3" label="Etat" max_length="40" name="etat" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Annulée" sequence="2" value="annulee"/>
+                <element inactive_on_update="false" label="En cours" sequence="0" value="en_cours"/>
+                <element inactive_on_update="false" label="Refusée" sequence="3" value="refusee"/>
+                <element inactive_on_update="false" label="Terminée" sequence="1" value="terminee"/>
+            </choice>
+        </element>
+        <element label="active" max_length="40" name="active" type="boolean"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Recipient" max_length="32" name="recipient" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Date de cloture" max_length="40" name="date_de_cloture" read_only="true" type="glide_date"/>
+        <element label="Note de travail" max_length="40" name="note_de_travail" type="journal"/>
+        <element label="Accès" max_length="255" name="acces_type" type="radio"/>
+        <element label="4.3 Fréquence estimée des commandes" max_length="40" name="frequence" type="radio"/>
+        <element label="Commentaire" max_length="40" name="commentaire" type="journal"/>
+        <element choice="3" label="Remplaçant prévu" max_length="40" name="remplacant_prevu" type="radio">
+            <choice>
+                <element inactive_on_update="false" label="Oui" sequence="0" value="Oui"/>
+                <element inactive_on_update="false" label="Non" sequence="1" value="non"/>
+            </choice>
+        </element>
+        <element choice="3" label="catalogue" max_length="40" name="catalogue_med" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medstock" sequence="0" value="Medstock"/>
+                <element inactive_on_update="false" label="Medref" sequence="1" value="Medref"/>
+                <element inactive_on_update="false" label="Medstd" sequence="2" value="Medstd"/>
+            </choice>
+        </element>
+        <element label="Service/unité" max_length="40" name="service_unite_recipient" type="string"/>
+        <index name="index">
+            <element name="responsable"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="recipient"/>
+        </index>
+    </element>
+</database>

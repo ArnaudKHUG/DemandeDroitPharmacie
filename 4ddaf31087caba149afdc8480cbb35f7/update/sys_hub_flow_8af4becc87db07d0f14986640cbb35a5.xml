@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=22935000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>hug_clture_des_droits</internal_name>
+        <label_cache>[{"name":"9250b45b-d225-4604-9b15-fadf986d32b4.Records","label":"1 - Look Up Records➛Demande Acces Exceptionnel Records","reference":"x_hpug_demande_a_0_demande_acces_exceptionnel","reference_display":"Demande Acces Exceptionnel","type":"records","base_type":"records","usedInstances":{"dc325515-5899-40f6-9f3a-258423530381":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc325515-5899-40f6-9f3a-258423530381.item.date_de_cloture","label":"2 - For Each➛Demande Acces Exceptionnel Record➛Date de cloture","reference":"","reference_display":"Date de cloture","type":"glide_date","base_type":"glide_date","parent_table_name":"x_hpug_demande_a_0_demande_acces_exceptionnel","column_name":"date_de_cloture","usedInstances":{"a18e57ea-f2f5-4851-b215-038be54ac5cf":["condition"]}},{"name":"Daily_1.run_start_time","label":"Trigger - Run Daily ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"a18e57ea-f2f5-4851-b215-038be54ac5cf":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"dc325515-5899-40f6-9f3a-258423530381.item","label":"2 - For Each➛Demande Acces Exceptionnel Record","reference":"x_hpug_demande_a_0_demande_acces_exceptionnel","reference_display":"Demande Acces Exceptionnel","type":"reference","base_type":"reference","usedInstances":{"8d6df73a-e360-4d57-b6ce-7b4ef5924662":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>1f267e80871f07d0f14986640cbb354a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>(HUG) Clôture des droits</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>93267e80871f07d0f14986640cbb356d</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:47:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8af4becc87db07d0f14986640cbb35a5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>(HUG) Clôture des droits</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_hub_flow_8af4becc87db07d0f14986640cbb35a5</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:20</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>727cc0d087db47d0f14986640cbb35af</version_record>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2026-09-08 15:52:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>93267e80871f07d0f14986640cbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:18</sys_updated_on>
+        <time>1970-01-01 05:35:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:93267e80871f07d0f14986640cbb356d^sys_idNOT INd7267e80871f07d0f14986640cbb356d"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:93267e80871f07d0f14986640cbb356d</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="Arnaud KENDZIORA-ADM">373a816b95ce7540d4a1757394541fe7</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-09-08 15:52:00</run_start>
+        <run_time>1970-01-01 05:35:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('93267e80871f07d0f14986640cbb356d');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7267e80871f07d0f14986640cbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:18</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">93267e80871f07d0f14986640cbb356d</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8af4becc87db07d0f14986640cbb35a5^sys_idNOT IN8af4becc87db07d0f14986640cbb35a6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8af4becc87db07d0f14986640cbb35a5</id>
+        <name>(HUG) Clôture des droits</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:47:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8af4becc87db07d0f14986640cbb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:47:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8af4becc87db07d0f14986640cbb35a6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8af4becc87db07d0f14986640cbb35a5^sys_idNOT IN2126fa80871f07d0f14986640cbb359f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:10</sys_created_on>
+        <sys_id>2126fa80871f07d0f14986640cbb359f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:16</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXWvcMBD8K0XPVyOfk7T1WyAc9KENNEdeQjBraX0nWH1Uli9xQ/57V7ZytGmNX3Z2d3Zm0MOLIOiRRCv2xqLYCOMSRge0nwMyeiCjsUtrz4LTkHycRZvihBsxRG/3aANB4uEBaGTQR41RtLWUG3ECmvBuHr9q5mIGBzazFr6ly2X95ZP8KGv+P8irtrlspeSuOhrSEZ1oHx43IkDk3ZSZX961TCZvQF+gVlI1W/6k3H6+qPurpq+3ugHESyZ85/RvLek/fv90gs8JnUZ9tvlPGBFB3zqazxNHznK1beF5NL+wUEUckMUrXJvnstNm5CjnFVZHbxTehmS8W5EEPZUd5Wmy7vvqgGuNA0yU7kugjEwj82HImrOKImm4O/qnH28Hd8YtBkuTvAI6V5BSNP2UcMyJI6Flos5CCMYduhD9ySzLrMVWS2zVQP6Jj47m4CpQWXjFEUG1Y/xmge8hmuziG9Pw8uvivvs55burj6K4W03zQAllZ5DKIxpVNCFd84HT26t7ffwNRpHHdcoCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8af4becc87db07d0f14986640cbb35a5^sys_idNOT INa926fa80871f07d0f14986640cbb35a0,6526fa80871f07d0f14986640cbb35a5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a926fa80871f07d0f14986640cbb35a0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-09 04:35:03</sys_updated_on>
+        <ui_id>9250b45b-d225-4604-9b15-fadf986d32b4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXW0/bMBT+K1Weqyq9UFjfEAUJCco00KSJgXWSuK01N8lspxeq/pe97nfwx3YcOxfalLVS0UB7q8/F/s7lOzm9XzoscHrOybDjutA8Ojl23Xbbdbvdtg9Nz2t3fc/1Op5Td0KYULRU4HGKxynwRJ/nZBwnIxLQCYQBJUDc4rfvU0no3KexYlEYUo5+AZMxh8VX6943trVTbVs7f2nrjxkPBA2d3v1D3YlBIARFhdNbrql2jYGDhxf3nDsbxFpMahHnR5LqjOyq7FYbGEUkAg3FrTt0rijGgBiGwCWtOzokUJFY5BJBIbgJeSEYs1DhjY42nkv2hO+euNpuSDEqnxpdfiQ2bUY87IOCWyUSXyXCmvrjiGEKTT4COoSEq7OyzBjcpOk1LiZs4x3xZBIOTDqc/IKsSihJJIKgsQ5UI7dhDG/H0exLhvKChWlOrJJHPvD8BEoJ5iVK41k6lNMJXkQmEMcsHJFYRFOWOiOWSWPE8dAY8miGj0o2Chvga+ANzCs0LlDeT8VfQTAdxTVeg84IiHHsEGJKKKNEpKmcEp8nMlUICKW5y1nVHbmQZxykLCLHlJOficZt8mAjJiZp2sUXLFaneMWU2uBW9Z1odOQWLedHYcA0ClniElUQ0+8J+gaIkylKH6UCZUWtRwxeFwGDiXThL28HN3fn15/vvuUaQTlgIUoaKxHZtQl9hBR7Idhk5b8DckjKp/nOKH9WTnhVESz5N2RXVRdY8jcPRn6M4yPRX1fr3bF/fz6bFPyF1P7xq012VPSTjIQiJpclVm/Sa+8+3wFC/mkTjIoaXrgNlu3zIaM8qPrIXWjF2keu9X9+5N5llyOggJjqsZCzMN1Y9PB8o/Z3X5+xn9b6LG2vovlTGUh/kwRQe/5Ve9qbCjvAyamAUGq4W2JNqkFmIz9tmvVxnwktBdoHo0C7dRgKLPNA81RWZD1bU3U9M/snbQ/r9tiEJYfmqopie73Z3PfN1mqTwu29OFxuN6Ppb+m6A++zWzhZf8shMEZX+x4xDCYzFoyoKl7PrIJIzYD/qNLbjiNZodLw3mA37rxK3G6zoCgyBfdHicUrL8dN3JA2p0hTb4+tY6Pbb5LsACjLySCaeILWEBibANczRTz/1gBByW247XBB/tNRWrHydLnMpbb1OwfcJN/tFzYrYSUzX1TyQ/zbPBxHHv4Aez1tOYgRAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a926fa80871f07d0f14986640cbb35a0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>a18e57ea-f2f5-4851-b215-038be54ac5cf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6526fa80871f07d0f14986640cbb35a5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-09 04:35:03</sys_updated_on>
+        <ui_id>8d6df73a-e360-4d57-b6ce-7b4ef5924662</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPgBJCGPBWlVaa1LXSOvVla6OLcwOWHCeznRaG+O+7dszH2qprp75U4wmf++Fzru+B7xsmcjZlQ8yjeBKPeBInySCKBuNhPB8l83iQJ4AYsy5TUCJlauSVzul8D7JxwGaT82SQpnHaS8eTSW8YFaPepEigN0jHw0GSJlEyjvvCYrndUl0uTC1hfRPKCeFLIXONik2/33ZZDZpusqjZdPMo9FqqEuYoKfVMaVwIYzWWqOwzGuy6due84o3LyMQOvAgdZiHS+TyjCBU5WnHUZbiyqHIkQgVIg11WgsrBVnrNplY3BGiE/ErJ9T5jKYiDF1zCyohfdPMwcnkFkkIehrE/ZmFQLVzMwMI1dea20fu5VYKjaWeTYwGNtKfHWJtwVVtRqbbEwlzuqivZlOqynQjbNzh6l8YQCaydTse8lVVcL6uHrzuS50L5kQSJsuIg9yewVot5Yx2dDUPpXyEroa6FWmS1ru6FLyYqZX8h6dAvZPVAdxqxUH3gjnefpgr9c8JnHr4BLZyIL9SGirddZtbmVIIxByk0w+xn45i0woKEzE/BjyDzm+CKuRa1PaGr7jEQ33aDKebpS5vGJ4eFOup5MMYqW9bNgtS41cAMsujwndMbZbji6N9G0a49Mcasze2cuNzO2Z+5b7PMK4TsLPPNL8jzwoJbnmAXx7WdyzYQvJK+m1fGH8krQcaHN8vfLBINXvwxPtok7wpzZA/wDX80UZTkvukdWqgDQLtcCoV4ZyzYgH166pF/6vE277xC4c47p0soa/OM5J1xsCTyFrN2BI/ME4KdmxDc/9m8m4PiUeQ/H8hH/81/zu1vLj9hq4oJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6526fa80871f07d0f14986640cbb35a5"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8af4becc87db07d0f14986640cbb35a5^sys_idNOT IN2526fa80871f07d0f14986640cbb35a2,6d26fa80871f07d0f14986640cbb35a3"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6926fa80871f07d0f14986640cbb35a1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2526fa80871f07d0f14986640cbb35a2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:16</sys_updated_on>
+        <ui_id>dc325515-5899-40f6-9f3a-258423530381</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhr9i1LkVGAr0sBboil6GwqAlOhEmS6okJ/UM//dRsZMNPe5k85F8fE/kxMwQ7BD8q7n3Xh402/983zCpI0b/E9PQI9szGbD3bMNOoIYYT1Od79K23LVbkee7bVml5bZus922A9HVd5Uo8rZMXpAbJ/w8U6uQ3ioY3/6fgR+lEg5XkRYcaQvo2H76kgqjxUZBi4oGrQzULwWFWU3sWVrzIq+KPE3zuzJrq6LNclEAiorqrp2Pq+kvbxDZKXQ3XvpEFXm6YfgZUAukQR0ojxvWgxYQjBvZPriBAIcgnrUabxVHqQPRsVj76eVv4s7SNBZ2SI44Lslb2KwPucD8aCTHZxuk0QsSoFVrDzdq6PXTIj+uADsYVLiugJDBEx/aqDmqWCV1P47m/HId+CD1xd+aVIaDukUQgpPtENDHNaDCnoiaHqyV+tBYZ07y0kxa+uSgKEg6Zc40NJ5bAjwKT+iJIHkg/NsFfgMno4vvREPN88V98zHEuYuPVXGzmKYCz5204Z7oTriKm9/jvS5MfjkMgVx6GvgascfrlcfESEuW/F/obNyvKPUvNv8BL3GcGi8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a526fa80871f07d0f14986640cbb35a3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>dc325515-5899-40f6-9f3a-258423530381</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6d26fa80871f07d0f14986640cbb35a3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:16</sys_updated_on>
+        <ui_id>a18e57ea-f2f5-4851-b215-038be54ac5cf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FUNnW9DDMuzcggYBCrQJ0AS5tAGxJlcxW4pU+UjiCv6r/kF/rEtJdoImQR9ob72Js8vdmeUO1CUm+DZ4d2mOnZM3Ojl6fz1NpI4YfXeJhgaTo4QbLaSXRrMemCa3oEIMnIDHicAJV9+++mBx8iFkWSkmAx4mH02wlC6kaxVsr37vFt9IJSyOrFqw1NujTY66H0J+2yJTsEZFxS+8lfqGrktBpzqDOl/xnJfFoiyyrFjO8/WiXOeFKAGhpLz9xVd7kZM3PTJ9UX3sR7jbdzJWRFp5Nk3w3qMWSK1rUA6nSQNagDd2e0AsgjjX6gHYSO2pXBKT7538QrWLqoqJNZJGjkPwcGTjOAeYb4zkeN5GggPiYa3GO9yo0OizQUd8CKwhKL9/CEKCo3rYRtKRxUipvtiYu3f7hqdS9wLHoDIc1OEEnsawDh5dfBhU2FAh1kDb0nBYa82t7C8Tlya9UXRIa2XuqGncuBR4JJ7SjCA9Jfykh6/AyqjiLZVBO9Jcg5Oc9dtJ5bwlCbt+LOxziIQGgaMUNkyDEhy3svXH1OcWR9a76dPVfrTVXSdoX6oqr2bVcrWazbN6MVvVJcyKajkvyqrMymWeSo9NJB4HyLgycZV3u/OzrjsBqbYsT23QzHmwnnnZUOypFf5lq7/hnxVUdZVn1fP+mS+e888zznnZNMVPTBOf+Rc9k2XZf9M8No10bFj+UVvf/I89cx0NMnRww94I5NIRkcuIvd7/NWJgSwsg+WPozthPUcIDtvsOOiwxSH8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8af4becc87db07d0f14986640cbb35a5"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>hug_clture_des_droits</internal_name>
+        <label_cache>[{"name":"9250b45b-d225-4604-9b15-fadf986d32b4.Records","label":"1 - Look Up Records➛Demande Acces Exceptionnel Records","reference":"x_hpug_demande_a_0_demande_acces_exceptionnel","reference_display":"Demande Acces Exceptionnel","type":"records","base_type":"records","usedInstances":{"dc325515-5899-40f6-9f3a-258423530381":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc325515-5899-40f6-9f3a-258423530381.item.date_de_cloture","label":"2 - For Each➛Demande Acces Exceptionnel Record➛Date de cloture","reference":"","reference_display":"Date de cloture","type":"glide_date","base_type":"glide_date","parent_table_name":"x_hpug_demande_a_0_demande_acces_exceptionnel","column_name":"date_de_cloture","usedInstances":{"a18e57ea-f2f5-4851-b215-038be54ac5cf":["condition"]}},{"name":"Daily_1.run_start_time","label":"Trigger - Run Daily ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"a18e57ea-f2f5-4851-b215-038be54ac5cf":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"dc325515-5899-40f6-9f3a-258423530381.item","label":"2 - For Each➛Demande Acces Exceptionnel Record","reference":"x_hpug_demande_a_0_demande_acces_exceptionnel","reference_display":"Demande Acces Exceptionnel","type":"reference","base_type":"reference","usedInstances":{"8d6df73a-e360-4d57-b6ce-7b4ef5924662":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>(HUG) Clôture des droits</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="(HUG) Clôture des droits">8af4becc87db07d0f14986640cbb35a5</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1f267e80871f07d0f14986640cbb354a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:19</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1f267e80871f07d0f14986640cbb354a^sys_idNOT IN9b267e80871f07d0f14986640cbb354b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1f267e80871f07d0f14986640cbb354a</id>
+        <name>(HUG) Clôture des droits</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9b267e80871f07d0f14986640cbb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9b267e80871f07d0f14986640cbb354b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1f267e80871f07d0f14986640cbb354a^sys_idNOT INd3267e80871f07d0f14986640cbb355a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">1f267e80871f07d0f14986640cbb354a</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:18</sys_created_on>
+        <sys_id>d3267e80871f07d0f14986640cbb355a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:18</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXWvcMBD8K0XPVyOfk7T1WyAc9KENNEdeQjBraX0nWH1Uli9xQ/57V7ZytGmNX3Z2d3Zm0MOLIOiRRCv2xqLYCOMSRge0nwMyeiCjsUtrz4LTkHycRZvihBsxRG/3aANB4uEBaGTQR41RtLWUG3ECmvBuHr9q5mIGBzazFr6ly2X95ZP8KGv+P8irtrlspeSuOhrSEZ1oHx43IkDk3ZSZX961TCZvQF+gVlI1W/6k3H6+qPurpq+3ugHESyZ85/RvLek/fv90gs8JnUZ9tvlPGBFB3zqazxNHznK1beF5NL+wUEUckMUrXJvnstNm5CjnFVZHbxTehmS8W5EEPZUd5Wmy7vvqgGuNA0yU7kugjEwj82HImrOKImm4O/qnH28Hd8YtBkuTvAI6V5BSNP2UcMyJI6Flos5CCMYduhD9ySzLrMVWS2zVQP6Jj47m4CpQWXjFEUG1Y/xmge8hmuziG9Pw8uvivvs55burj6K4W03zQAllZ5DKIxpVNCFd84HT26t7ffwNRpHHdcoCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1f267e80871f07d0f14986640cbb354a^sys_idNOT INdb267e80871f07d0f14986640cbb3557,9f267e80871f07d0f14986640cbb3558"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">1f267e80871f07d0f14986640cbb354a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db267e80871f07d0f14986640cbb3557</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:19</sys_updated_on>
+        <ui_id>9250b45b-d225-4604-9b15-fadf986d32b4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX227iMBD9FZRnhMKltMtbVVqpUltWBVVadVtrkhiw1iRZ2+FSxL/vOHYuhbQLEtW22jc8F/vMzDmOeVw7LHB6ztm447rQPDk7dd1223W73bYPTc9rd33P9TqeU3dCmFGMVOBxiss58ESvl2QaJxMS0BmEASVA3OK371NJ6NKnsWJRGFKOeQGTMYfVg03vm9jauY6tXb6O9aeMB4KGTu/xqe7EIBCCosLprbdc+9bAwcONe87IFrFVk1rF+ZKkPmO7KafV7owjEoGG4tYdulQUa0AMY+CS1h1dEqhIrHKLoBAMQl4YpixUuKOjg5eSveC5Z66OG1OsyqfGly+JbZsxj/ugYKhE4qtE2FB/GjFsoelHQMeQcHVRtpmAQdpek2LKNtkRT2bhnWmHk2+QTQktiUQQNNaFauS2jPFwGi3uM5RXLEx7Yp088oHnK1BKMC9RGs/aoZzOcCMygzhm4YTEIpqzNBmxzBoTjovGmEcLPFSySdgAXwNvYF+hcYX2fmp+AMF0Fbe4DSYjIMaRIcSMUEaJSFs5Jz5PZOoQEEqzl7OpO3IlLzhIWVSOLSe/E43b9MFWTEzTdIovWKzOcYs5tcVt6nvJ6MQtKOdHYcA0ClnSElUQ058J5gaIkylKn6UCZU2tZyxeDwGLifTgr4d3g9Hl7ffRj9wjKAccRMljLSLbNqHPkGIvDLuq/HdAjin5tN+Z5C/KDa8aghX/ju2magMr/ubRxI91fCX562l9OvUfrmfTgr+I2j99l2QnBZ9kJBQxvSypeldeB/N8DwgZzweamTVv9RYqS/Mxozyo+sZdacfWN671f37jPiXJEVBAzPRYyFmYPlj03flB7Hffv2K/bfEspVfB/dQG0t/VANRUVHs5WAl7wMmUMMSzayODpwJidt+nlNm+6zOjFUD7aAJot44jgHVeZt7Iip5nb1Q9zSz+RcfDdjxSsJTQ3FQJ7KAzm4ee2drsCrh9kILLZDOe/hucO/Jj9g1F1j/yCphiqj2PGP2SBQsmVBWnZ1FBpBbAf1X5LeNINqi0vA94GHfelW23WUgUlYKPR4nDK7+Mm/g82r1Dmvrp2Do1vsPukT0AZT25hWXtPkdUCdPeJSh3OkkHVL5MrnOrZXrniK/GT/s5zSZWKcRXg/sS/yyPJ4mnP8IEuXB0EQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=db267e80871f07d0f14986640cbb3557"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">1f267e80871f07d0f14986640cbb354a</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>a18e57ea-f2f5-4851-b215-038be54ac5cf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9f267e80871f07d0f14986640cbb3558</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:19</sys_updated_on>
+        <ui_id>8d6df73a-e360-4d57-b6ce-7b4ef5924662</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPgPJBGPBWlVWa1LVSO/Vla6OLfQOWHCeLnRaG+O+7cRxgbdW1U1+q8YTvl885uSf5vmVSsBkboQjCaTjmcRjHURBEk1G4GMeLMBIxIIaszzTkSJUV8qISdL4HVTeB7VbwOEqSMBkkk+l0MAqy8WCaxTCIkskoipM4iCfhUFrMdzvqE9KUCjY3vp0ifCWVqFCz2ffbPiuhopssVmy2fZR6LVQFC1RUetVhfYzdbsrmLApe56htKrvgue+c+0zvy5wy1NTACYM+w7VFLZCAZKAM9lkOWoAtqg2b2aqmQIUgLrXa7CtWUtuWaA5rI3/RzaOgqcuQmHEvwv6YeoHacDYHC9c0mdu62utVSI6m1URgBrWyp8extuCytLLQbYuFheq6C1Xn+qJVhO0HHD2P2hAILBueDfKWVna9Kh6uOpBnUjtJPEVVcFD7E1hbyUVtGzhbhgqdxjmUpdTLtKyKe+maCUo+XCo6DDNVPNCdRi71EHiDe0iqwvCM4nMXvoFKNiS+0hhq3vWZ2ZhTBcYcqJCG6c+6QdIS8xRSp4KTIHWb0DTzSpb2hK66Rw981/dmWCQvbRifHhbqaObBEOt0VdZLYtOsBqaQBof/nJ5RimuO7tlo2rUnhpi3tb2Tprb3+c/at1nlFUQ6q3xzC/I8Me+WJ7Hz497eRZvwXknezSuTj+QVT+PDm+VvFgmiF1/CR5vkXGGO7AFu4I86CGLhht6hhdIHaJdzqRHvjAXrY5+eeuSfZrzNO69g2HnnTKIS5hnKnXEwJ/AW01aCR+bxyd6NT+4/Nu/moHAcuN8H8tF/8825/Q1Hk4IGggkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9f267e80871f07d0f14986640cbb3558"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1f267e80871f07d0f14986640cbb354a^sys_idNOT IN5b267e80871f07d0f14986640cbb3554,d3267e80871f07d0f14986640cbb3556"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6926fa80871f07d0f14986640cbb35a1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">1f267e80871f07d0f14986640cbb354a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b267e80871f07d0f14986640cbb3554</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:19</sys_updated_on>
+        <ui_id>dc325515-5899-40f6-9f3a-258423530381</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TTW+jMBD9Lz4TxFdQya1qVanS7lZKq15WFRpsk1hrbNYfSVnEf99xILTqsSeY55k37z3MSLR3vXf2Rd9aKw6K7H6/RUSogOH7SBR0nOyIcLyzJCInkD7U41hl26Qpts2GZdl2U5RJsamadLtpgbXVTcnyrCniPafaMDtNOMqE7SUMr99noEchmeGLyB4ManPckN345UgwXJBWSJMmFc2zMs+SJLsp0qbMmzRjOXBWIqGEhktsfVzcfTHrhj6UZpawAD+Wmf2K4iOIyJKI8HfHFeO4vgVpeUQ6UAycNgPZOeMRMBzYk5LD2nEUyiEdCb3vVvzDjWmShMaWoyHK58O1rJccZ7i9BwfPSE2dN0srPWpBuZ2jYLwFL93dZ2xueOqd0GoecdDI67SWvlO/5iTISnD9bIh4iyJ4H4wG6YuP9vmoz/urygehLqEsh1JTkGsFzhnReBf0jIRL3iFR3UHfC3Woe6NP4jKMWrr4ILGIW6nPuDRc0RhoEB5jrhA/IH5/gV/BiODiJ9Lg8BQRO9g7CdZ+eMEQ678+KJmdLR7qOYYwQo3o3S0uOPFF7vQWbv3MvWZKhUUJLwF7vP4r4WDAGyToZ+iszZ8g/gOb/gNHoGyGdQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a526fa80871f07d0f14986640cbb35a3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="(HUG) Clôture des droits">1f267e80871f07d0f14986640cbb354a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>dc325515-5899-40f6-9f3a-258423530381</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d3267e80871f07d0f14986640cbb3556</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 22:09:19</sys_updated_on>
+        <ui_id>a18e57ea-f2f5-4851-b215-038be54ac5cf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWdDDMuzcggQBCqQx0AS5tIGwJimbLUWqfDhxBf9V/6A/1qUk20Hjog3a3noTZ8ndmSEHaon2rvHO3ulza8VKkbP3DxERKmD43RIFNSdnhGrFhBNalR0QkQ1IHwqX4PiI8RGV3746b/jog0+SnI163I8+am9wOxO2kbC9f90puhaSGT6wasDgbMcNOWt/KAmGTasEqnROU5pn0zxLkmw2SZfTfJlmLAcOOTaUsOQSt17s5YyuOyT6qU63bQJunRFqNayvhy63e1AbFlilSUT4k+OKceRTgbQ8IjUoBk6b7QExHNhCySOwFsphOxI2P1nxBQdmRRE2VhwlUt4XD8tycLOHKzQNkIqnwckeo2stKLe9OYxX4KW7eI71GxZNkNofcbCU+9Na+lrd9I6QQ4P95SHiLZLgTVAaqA86qtu1fny3Z3klVOfKUJSagjyswKF3S+8Cn5ZwyWtsVNbQNOho2Ri9Ed1h5FLHK4mLuJL6EYeGVxoDDcRjNBbiK8QvO/gejAgq3mIbbgaaS7CClt2LxnZoEye7iNitvZBg7VEkult+9oFiL3kQV/b+hCPUiMad4+QNH3TsopcBeZaNtmX4FosiLcbFbD4fT5JqOp5XOYyzYjbJ8iJP8lkaC8frICVYWlKpwzXudoubtr0EIbdlGhuvSuvAuNKJGmsvA/UvR70uhXMoqiJNitMpnExPpfBE/l4ZvewX0Qv3/pvJS5Lkf/T+OHrCln1gBm3d8L+YvIcQs37mwWsqLFK7C9ib/R8sFLb4uAR9Dj1q8ymIOmK772snHgwLBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1f267e80871f07d0f14986640cbb354a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_1f267e80871f07d0f14986640cbb354a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1f267e80871f07d0f14986640cbb354a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1f267e80871f07d0f14986640cbb354a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8af4becc87db07d0f14986640cbb35a5</sys_id>
+        <latest_snapshot>1f267e80871f07d0f14986640cbb354a</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch11-hotfix1-07-16-2026_07-18-2026_1140.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8af4becc87db07d0f14986640cbb35a5^sys_idNOT INe3267e80871f07d0f14986640cbb3570"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e3267e80871f07d0f14986640cbb3570","name":"plan","plan_signature":null}}</plan>
+        <plan_id>8af4becc87db07d0f14986640cbb35a5</plan_id>
+        <snapshot>1cc469d8871f87d0f14986640cbb3545</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 15:52:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e3267e80871f07d0f14986640cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:52:18</sys_updated_on>
+        <trigger display_value="">93267e80871f07d0f14986640cbb356d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8af4becc87db07d0f14986640cbb35a5"/>
+</record_update>

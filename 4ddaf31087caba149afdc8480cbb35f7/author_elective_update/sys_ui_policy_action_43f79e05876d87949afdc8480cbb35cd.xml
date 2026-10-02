@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>partenaire</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-06-16 16:24:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>43f79e05876d87949afdc8480cbb35cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>partenaire</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_43f79e05876d87949afdc8480cbb35cd</sys_update_name>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 23:48:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="(HUG) Display if Partenaire externe">83f79e05876d87949afdc8480cbb35c5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</application>
+        <comments/>
+        <file_path/>
+        <instance_id>1cc6988751048d003427e32ab5e0bf89</instance_id>
+        <instance_name>hcugeitdev</instance_name>
+        <name>sys_ui_policy_action_43f79e05876d87949afdc8480cbb35cd</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>partenaire</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>ARKADM</sys_created_by><sys_created_on>2026-06-16 16:24:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>43f79e05876d87949afdc8480cbb35cd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>partenaire</sys_name><sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope><sys_update_name>sys_ui_policy_action_43f79e05876d87949afdc8480cbb35cd</sys_update_name><sys_updated_by>ARKADM</sys_updated_by><sys_updated_on>2026-09-08 23:48:02</sys_updated_on><table/><ui_policy display_value="(HUG) Display if Partenaire externe">83f79e05876d87949afdc8480cbb35c5</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-280731782</payload_hash>
+        <record_name>partenaire</record_name>
+        <reverted_from/>
+        <source>9f2f33d0870eba149afdc8480cbb3544</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 23:48:02</sys_created_on>
+        <sys_id>10132c9487df47d0f14986640cbb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0836be9e10000001</sys_recorded_at>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 23:48:02</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>54132c9444df47d05b2370b0f206b1d0</update_guid>
+        <update_guid_history>54132c9444df47d05b2370b0f206b1d0:-280731782,53032c949fdf47d0eef5ab170c3ab0c9:1920203702,77d2e09455df47d0f4c45c191943a178:-675479054,05d2a09405df47d03a31172328051e19:1644397750,8ff79e05746d87941b445f8d3c19ccd1:-280731782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ARKADM</sys_created_by>
+        <sys_created_on>2026-09-08 23:52:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>06bf64953f3e41b6aaa1b3bdf27e8224</sys_id>
+        <sys_metadata>43f79e05876d87949afdc8480cbb35cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>partenaire</sys_name>
+        <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
+        <sys_parent display_value="(HUG) Display if Partenaire externe">83f79e05876d87949afdc8480cbb35c5</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
+        <sys_scope_delete display_value="">35272f35e332434484e0775c4628a610</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_43f79e05876d87949afdc8480cbb35cd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_43f79e05876d87949afdc8480cbb35cd">10132c9487df47d0f14986640cbb35d1</sys_update_version>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-09-08 23:52:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

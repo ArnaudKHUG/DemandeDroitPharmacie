@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cbde6a4987a1c7949afdc8480cbb35b0" label="masterdata" max_length="40" name="x_hpug_demande_a_0_masterdata" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Catalogue" sequence="0" value="catalogue"/>
+                <element inactive_on_update="false" label="Outils" sequence="1" value="outils"/>
+            </choice>
+        </element>
+        <element display="true" label="Label" max_length="40" name="label" type="string"/>
+        <element label="Actif" max_length="40" name="actif" type="boolean"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>
