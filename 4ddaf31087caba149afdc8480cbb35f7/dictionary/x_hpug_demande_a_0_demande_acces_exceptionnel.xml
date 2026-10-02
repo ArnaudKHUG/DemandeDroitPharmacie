@@ -51,11 +51,11 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Catalogue" max_length="500" name="catalogue" reference="x_hpug_demande_a_0_masterdata" reference_qual="actif=true^type=catalogue" reference_qual_condition="actif=true^type=catalogue" type="glide_list"/>
         <element choice="3" label="Fonction" max_length="40" name="fonction_responsable" type="radio">
             <choice>
+                <element inactive_on_update="false" label="RES" sequence="4" value="res"/>
                 <element inactive_on_update="false" label="Cadre référent" sequence="0" value="cadre_referent"/>
-                <element inactive_on_update="false" label="Professeur CMU" sequence="4" value="professeur_cmu"/>
-                <element inactive_on_update="false" label="Responsable de service" sequence="3" value="responsable_de_service"/>
+                <element inactive_on_update="false" label="Professeur CMU" sequence="3" value="professeur_cmu"/>
+                <element inactive_on_update="false" label="Responsable de service" sequence="2" value="responsable_de_service"/>
                 <element inactive_on_update="false" label="Médecin responsable" sequence="1" value=" medecin_responsable"/>
-                <element inactive_on_update="false" label="RES" sequence="2" value="RES"/>
             </choice>
         </element>
         <element choice="3" label="Procédure interne existante" max_length="40" name="procedure_interne_existante" type="radio">
