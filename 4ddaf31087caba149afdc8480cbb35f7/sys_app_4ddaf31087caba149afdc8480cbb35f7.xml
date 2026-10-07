@@ -25,7 +25,7 @@
         <short_description>Demande de droits d'accès exceptionnel, Pharmacie</short_description>
         <sn_managed>false</sn_managed>
         <source>x_hpug_demande_a_0</source>
-        <store_correlation_id>REPOAPP0003148438</store_correlation_id>
+        <store_correlation_id>REPOAPP0003148473</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -33,15 +33,15 @@
         <sys_created_by>ARKADM</sys_created_by>
         <sys_created_on>2025-12-22 16:01:05</sys_created_on>
         <sys_id>4ddaf31087caba149afdc8480cbb35f7</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>ARKADM</sys_updated_by>
-        <sys_updated_on>2026-10-07 14:15:13</sys_updated_on>
+        <sys_updated_on>2026-10-07 14:26:29</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.6</version>
+        <version>1.0.7</version>
     </sys_app>
 </record_update>
