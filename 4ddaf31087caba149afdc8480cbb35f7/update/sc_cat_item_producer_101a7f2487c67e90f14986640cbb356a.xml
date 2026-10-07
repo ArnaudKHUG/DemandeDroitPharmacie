@@ -85,7 +85,7 @@
         <sys_created_on>2025-12-23 10:37:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>101a7f2487c67e90f14986640cbb356a</sys_id>
-        <sys_mod_count>184</sys_mod_count>
+        <sys_mod_count>186</sys_mod_count>
         <sys_name>Attribution exceptionnelle des droits de commande de médicaments</sys_name>
         <sys_package display_value="Demande acces exceptionnel pharmacie" source="x_hpug_demande_a_0">4ddaf31087caba149afdc8480cbb35f7</sys_package>
         <sys_policy/>
@@ -93,7 +93,7 @@
         <sys_scope display_value="Demande acces exceptionnel pharmacie">4ddaf31087caba149afdc8480cbb35f7</sys_scope>
         <sys_update_name>sc_cat_item_producer_101a7f2487c67e90f14986640cbb356a</sys_update_name>
         <sys_updated_by>ARKADM</sys_updated_by>
-        <sys_updated_on>2026-10-07 13:55:25</sys_updated_on>
+        <sys_updated_on>2026-10-07 14:12:33</sys_updated_on>
         <table_name>x_hpug_demande_a_0_demande_acces_exceptionnel</table_name>
         <taxonomy_topic display_value="Droits d'accès">87415f43877c691098b684030cbb359a</taxonomy_topic>
         <template/>
@@ -104,7 +104,7 @@
         <u_url_tutorial/>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
-        <version>184</version>
+        <version>186</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -119,21 +119,31 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2026-06-18 18:01:18</sys_created_on>
         <sys_id>695145f187e5c794f14986640cbb35ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-10-07 14:11:53</sys_updated_on>
         <tablename>sc_cat_item_producer</tablename>
-        <value>&lt;table style="border-collapse: collapse; width: 99.99%; border-width: 0px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 99.9026%;" /&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border-width: 0px;"&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 11pt; font-family: &amp;#39;Segoe UI Emoji&amp;#39;, sans-serif;"&gt;⚠️&lt;/span&gt;&lt;span style="font-size: 11pt; font-family: Arial, sans-serif;"&gt; Informations générales (à lire avant de remplir)&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border-width: 0px;"&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;L’accès aux catalogues de médicaments permet la commande de médicaments soumis à ordonnance, pouvant inclure des stupéfiants.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute demande est &lt;strong&gt;exceptionnelle&lt;/strong&gt;, &lt;strong&gt;limitée dans le temps (1 an maximum)&lt;/strong&gt; et &lt;strong&gt;soumise à validation pharmaceutique&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Les droits sont &lt;strong&gt;nominatifs, non transférables&lt;/strong&gt; et retirés automatiquement en cas de départ d’abus ou de changement de fonction.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute commande effectuée doit être &lt;strong&gt;strictement liée aux besoins des patients ou aux activités médicales autorisées&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt; &lt;/p&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+        <value>&lt;table style="border-collapse: collapse; width: 99.99%; border-width: 0px;" border="1"&gt;&lt;colgroup&gt;&lt;col style="width: 99.9026%;"&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border-width: 0px;"&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 11pt; font-family: 'Segoe UI Emoji', sans-serif;"&gt;⚠️&lt;/span&gt;&lt;span style="font-size: 11pt; font-family: Arial, sans-serif;"&gt; Informations g&amp;eacute;n&amp;eacute;rales (&amp;agrave; lire avant de remplir)&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border-width: 0px;"&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;L&amp;rsquo;acc&amp;egrave;s aux catalogues de m&amp;eacute;dicaments permet la commande de m&amp;eacute;dicaments soumis &amp;agrave; ordonnance, pouvant inclure des stup&amp;eacute;fiants.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute demande est &lt;strong&gt;exceptionnelle&lt;/strong&gt;, &lt;strong&gt;limit&amp;eacute;e dans le temps (1 an maximum)&lt;/strong&gt; et &lt;strong&gt;soumise &amp;agrave; validation pharmaceutique&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Les droits sont &lt;strong&gt;nominatifs, non transf&amp;eacute;rables&lt;/strong&gt; et retir&amp;eacute;s automatiquement en cas de d&amp;eacute;part d&amp;rsquo;abus ou de changement de fonction.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-size: 11.0pt; font-family: Arial, sans-serif;"&gt;Toute commande effectu&amp;eacute;e doit &amp;ecirc;tre &lt;strong&gt;strictement li&amp;eacute;e aux besoins des patients ou aux activit&amp;eacute;s m&amp;eacute;dicales autoris&amp;eacute;es&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm; font-size: 12pt; font-family: Aptos, sans-serif;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 11pt;"&gt;Contact: Cyril Stucki ( Tel : 022.37.23.973 - E-mail: &lt;a href="mailto:Cyril.Stuci@hug.ch"&gt;Cyril.Stucki@hug.ch&lt;/a&gt;&amp;nbsp; )&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</value>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
         <documentkey>101a7f2487c67e90f14986640cbb356a</documentkey>
@@ -142,11 +152,11 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2026-06-18 18:01:18</sys_created_on>
         <sys_id>ed5145f187e5c794f14986640cbb359a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-10-07 14:11:53</sys_updated_on>
         <tablename>sc_cat_item_producer</tablename>
-        <value>(HUG) Droits exceptionnel Pharmacie</value>
+        <value>Attribution exceptionnelle des droits de commande de médicaments</value>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
         <documentkey>101a7f2487c67e90f14986640cbb356a</documentkey>
@@ -155,11 +165,11 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2026-06-18 18:01:18</sys_created_on>
         <sys_id>e95145f187e5c794f14986640cbb3561</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-18 18:01:18</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ARKADM</sys_updated_by>
+        <sys_updated_on>2026-10-07 14:11:52</sys_updated_on>
         <tablename>sc_cat_item_producer</tablename>
-        <value>Demande de droits d'accès pour la pharmacie</value>
+        <value>Demande de droits d'accès exceptionnels pour la pharmacie</value>
     </sys_translated_text>
     <fx_price action="delete_multiple" query="id=101a7f2487c67e90f14986640cbb356a"/>
     <fx_price action="INSERT_OR_UPDATE">
